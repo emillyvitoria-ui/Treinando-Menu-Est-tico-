@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    font-family:sans-serif;
+    background: rgb(243, 243, 243);
+    height: 100vh;
+    margin: 0;
+
+}
+nav{
+    width: 250px;
+    background: rgb(214, 64, 144);
+    padding: 2rem;
+}
+nav a {
+    display: block;
+    color: aliceblue;
+    padding: 1rem;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    background: violet;
+    border-radius: 4px;
+
+}
+nav a:hover{
+    background: rgb(202, 37, 133);
+}
+main{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
